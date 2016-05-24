@@ -15,6 +15,8 @@ namespace ShopAdvisor.Models
 
         public DbSet<Place> Places { set; get; }
 
+        public DbSet<Comment> Comments { set; get; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
