@@ -33,5 +33,22 @@ namespace ShopAdvisor.Controllers
 
             return View(query);
         }
+
+        // GET: Join
+        public async Task<ActionResult> OrderBy(int id)
+        {
+            int orderBy = 0;
+            var query = new List<Place>();
+            if (id == 1)
+            {
+                query = await db.Places.OrderBy(x=>x.name).ToListAsync();
+            }
+            else
+            {
+                query = await db.Places.OrderByDescending(x => x.name).ToListAsync();
+
+            } 
+            return View(query);
+        }
     }
 }

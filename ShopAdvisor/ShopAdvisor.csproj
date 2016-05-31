@@ -257,6 +257,7 @@
     <Content Include="Views\Places\Index.cshtml" />
     <Content Include="Views\LINQ\Where.cshtml" />
     <Content Include="Views\LINQ\Join.cshtml" />
+    <Content Include="Views\LINQ\OrderBy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
