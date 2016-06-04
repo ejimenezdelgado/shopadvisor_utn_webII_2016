@@ -1,0 +1,55 @@
+﻿
+@model ShopAdvisor.Entities.Admin
+
+
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Promedio)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.Promedio)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contador)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.Contador)
+        </th>
+    </tr>
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Max)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.Max)
+        </th>
+    </tr>
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Min)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.Min)
+        </th>
+    </tr>
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sum)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.Sum)
+        </th>
+    </tr>
+
+</table>

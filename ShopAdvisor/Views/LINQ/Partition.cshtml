@@ -1,0 +1,42 @@
+﻿@model ShopAdvisor.Entities.Partition
+@{
+    ViewBag.Title = "Partition";
+}
+
+<h2>Partition</h2>
+
+<h3>Skip</h3>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Skip.First().id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skip.First().name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skip.First().latitud)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skip.First().longitud)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model.Skip)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.latitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.longitud)
+            </td>
+        </tr>
+    }
+</table>

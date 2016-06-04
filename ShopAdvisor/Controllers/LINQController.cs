@@ -1,4 +1,5 @@
-﻿using ShopAdvisor.Models;
+﻿using ShopAdvisor.Entities;
+using ShopAdvisor.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -50,5 +51,42 @@ namespace ShopAdvisor.Controllers
             } 
             return View(query);
         }
+
+        // GET: Join
+        public async Task<ActionResult> Admin()
+        {
+            var promedio= await db.Places.AverageAsync(x=>x.id);
+            var contador = await db.Places.CountAsync();
+            var max = await db.Places.MaxAsync(x=>x.id);
+            var min = await db.Places.MinAsync(x => x.id);
+            var sum = await db.Places.SumAsync(x=>x.id);
+
+            Admin oAdmin = new Admin();
+            oAdmin.Promedio = promedio;
+            oAdmin.Contador = contador;
+            oAdmin.Max = max;
+            oAdmin.Min = min;
+            oAdmin.Sum = sum;
+
+            return View(oAdmin);
+        }
+
+        // GET: Join
+        public async Task<ActionResult> Partition()
+        {
+            var skip = await db.Places.Skip(1).ToListAsync();
+            var take = await db.Places.Take(2).ToListAsync();
+            var skipWhile = await db.Places.SkipWhile(x => x.longitud>0).ToListAsync();
+            var takeWhile = await db.Places.TakeWhile(x => x.longitud > 0).ToListAsync();
+
+            Partition oPartition = new Partition();
+            oPartition.Skip = skip;
+            oPartition.Take = take;
+            oPartition.SkipWhile = skipWhile;
+            oPartition.TakeWhile = takeWhile;
+
+            return View(oPartition);
+        }
+        
     }
 }
