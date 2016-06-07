@@ -74,16 +74,16 @@ namespace ShopAdvisor.Controllers
         // GET: Join
         public async Task<ActionResult> Partition()
         {
-            var skip = await db.Places.Skip(1).ToListAsync();
-            var take = await db.Places.Take(2).ToListAsync();
-            var skipWhile = await db.Places.SkipWhile(x => x.longitud>0).ToListAsync();
-            var takeWhile = await db.Places.TakeWhile(x => x.longitud > 0).ToListAsync();
+            var skip = await db.Places.OrderBy(x => x.id).Skip(1).ToListAsync();
+            var take = await db.Places.OrderBy(x => x.id).Take(2).ToListAsync();
+          //  var skipWhile = await db.Places.SkipWhile(x => x.longitud>0).ToListAsync();
+          //  var takeWhile = await db.Places.TakeWhile(x => x.longitud > 0).ToListAsync();
 
             Partition oPartition = new Partition();
             oPartition.Skip = skip;
             oPartition.Take = take;
-            oPartition.SkipWhile = skipWhile;
-            oPartition.TakeWhile = takeWhile;
+            oPartition.SkipWhile = new List<Place>();
+            oPartition.TakeWhile = new List<Place>();
 
             return View(oPartition);
         }
