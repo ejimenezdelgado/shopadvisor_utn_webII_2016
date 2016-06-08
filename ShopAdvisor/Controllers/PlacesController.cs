@@ -8,6 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using ShopAdvisor.Models;
+using System.IO;
 
 namespace ShopAdvisor.Controllers
 {
@@ -47,8 +48,16 @@ namespace ShopAdvisor.Controllers
         // más información vea http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "id,name,latitud,longitud")] Place place)
+        public async Task<ActionResult> Create([Bind(Include = "id,name,latitud,longitud")]
+        Place place, HttpPostedFileBase image)
         {
+
+            var filename = image.FileName;
+            var filePathOriginal = Server.MapPath("/Content/Uploads/places");
+            string savedFileName = Path.Combine(filePathOriginal, filename);
+            image.SaveAs(savedFileName);
+
+
             if (ModelState.IsValid)
             {
                 db.Places.Add(place);

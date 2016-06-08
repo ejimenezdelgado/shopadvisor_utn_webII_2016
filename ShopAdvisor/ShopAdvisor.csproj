@@ -187,6 +187,10 @@
     <Compile Include="Migrations\201605240300519_createCommentTable.Designer.cs">
       <DependentUpon>201605240300519_createCommentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606070303091_Alter1PlaceTable.cs" />
+    <Compile Include="Migrations\201606070303091_Alter1PlaceTable.Designer.cs">
+      <DependentUpon>201606070303091_Alter1PlaceTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -262,9 +266,11 @@
     <Content Include="Views\LINQ\OrderBy.cshtml" />
     <Content Include="Views\LINQ\Admin.cshtml" />
     <Content Include="Views\LINQ\Partition.cshtml" />
+    <Content Include="Views\Shared\PartialViewPlace.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\uploads\places\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -283,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605240300519_createCommentTable.resx">
       <DependentUpon>201605240300519_createCommentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606070303091_Alter1PlaceTable.resx">
+      <DependentUpon>201606070303091_Alter1PlaceTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
