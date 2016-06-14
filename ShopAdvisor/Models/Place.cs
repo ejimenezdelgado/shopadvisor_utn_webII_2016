@@ -16,7 +16,7 @@ namespace ShopAdvisor.Models
         public double latitud { set; get; }
         [Required]
         public double longitud { set; get; }
-        [Required]
+
         public String image_path { set; get; }
     }
 }
