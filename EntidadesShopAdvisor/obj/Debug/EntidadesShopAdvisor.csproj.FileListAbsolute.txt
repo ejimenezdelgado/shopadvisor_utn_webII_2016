@@ -1,0 +1,10 @@
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\EntidadesShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\EntidadesShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\DataShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\EntityFramework.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\DataShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\EntityFramework.xml
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\bin\Debug\es\EntityFramework.resources.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\obj\Debug\EntidadesShopAdvisor.csprojResolveAssemblyReference.cache
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\obj\Debug\EntidadesShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\EntidadesShopAdvisor\obj\Debug\EntidadesShopAdvisor.pdb

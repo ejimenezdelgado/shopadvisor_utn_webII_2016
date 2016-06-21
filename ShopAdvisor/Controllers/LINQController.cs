@@ -1,4 +1,6 @@
-﻿using ShopAdvisor.Entities;
+﻿using DataShopAdvisor;
+using DataShopAdvisor.Modelos;
+using EntidadesShopAdvisor;
 using ShopAdvisor.Models;
 using System;
 using System.Collections.Generic;

@@ -174,34 +174,12 @@
     <Compile Include="Controllers\LINQController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PlacesController.cs" />
-    <Compile Include="Entities\Admin.cs" />
-    <Compile Include="Entities\Partition.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201605170307455_Create_places_table.cs" />
-    <Compile Include="Migrations\201605170307455_Create_places_table.Designer.cs">
-      <DependentUpon>201605170307455_Create_places_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605240300519_createCommentTable.cs" />
-    <Compile Include="Migrations\201605240300519_createCommentTable.Designer.cs">
-      <DependentUpon>201605240300519_createCommentTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606070303091_Alter1PlaceTable.cs" />
-    <Compile Include="Migrations\201606070303091_Alter1PlaceTable.Designer.cs">
-      <DependentUpon>201606070303091_Alter1PlaceTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606140123032_Alter2PlaceTable.cs" />
-    <Compile Include="Migrations\201606140123032_Alter2PlaceTable.Designer.cs">
-      <DependentUpon>201606140123032_Alter2PlaceTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\ApplicationDbContext.cs" />
-    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Place.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -289,18 +267,14 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201605170307455_Create_places_table.resx">
-      <DependentUpon>201605170307455_Create_places_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605240300519_createCommentTable.resx">
-      <DependentUpon>201605240300519_createCommentTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606070303091_Alter1PlaceTable.resx">
-      <DependentUpon>201606070303091_Alter1PlaceTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606140123032_Alter2PlaceTable.resx">
-      <DependentUpon>201606140123032_Alter2PlaceTable.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\DataShopAdvisor\DataShopAdvisor.csproj">
+      <Project>{04f52373-9ca9-48de-8798-a5a604515348}</Project>
+      <Name>DataShopAdvisor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadesShopAdvisor\EntidadesShopAdvisor.csproj">
+      <Project>{cca37e5b-3c77-4ba3-8484-f14a234c9764}</Project>
+      <Name>EntidadesShopAdvisor</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

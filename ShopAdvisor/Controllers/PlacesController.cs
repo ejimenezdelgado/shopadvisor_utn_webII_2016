@@ -9,6 +9,8 @@ using System.Web;
 using System.Web.Mvc;
 using ShopAdvisor.Models;
 using System.IO;
+using DataShopAdvisor;
+using DataShopAdvisor.Modelos;
 
 namespace ShopAdvisor.Controllers
 {

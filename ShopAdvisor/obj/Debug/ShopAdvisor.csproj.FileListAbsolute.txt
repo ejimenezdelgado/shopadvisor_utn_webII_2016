@@ -86,8 +86,7 @@ D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\s
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.csprojResolveAssemblyReference.cache
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.dll
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.pdb
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.Create_places_table.resources
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.csproj.GenerateResource.Cache
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.createCommentTable.resources
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.Alter1PlaceTable.resources
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.Alter2PlaceTable.resources
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\DataShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\EntidadesShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\DataShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\EntidadesShopAdvisor.pdb
