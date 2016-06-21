@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿
+@using HtmlExtension
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -34,6 +37,8 @@
                         Shop Advisor
                     </a>
                     @Html.Label("hola", "hola mundo")
+                    @Html.Image("http://cdn.memegenerator.es/imagenes/memes/full/1/30/1300480.jpg", "ests")
+                    @Html.TextboxEmail("Chao cariño")
                 </li>
                 <li>
                     @Html.ActionLink("Inicio", "Index", "Home",new { id = "inicio" })
