@@ -279,6 +279,10 @@
       <Project>{cca37e5b-3c77-4ba3-8484-f14a234c9764}</Project>
       <Name>EntidadesShopAdvisor</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HtmlExtension\HtmlExtension.csproj">
+      <Project>{cccb1749-a7b0-470c-b034-f19d7d640cdc}</Project>
+      <Name>HtmlExtension</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

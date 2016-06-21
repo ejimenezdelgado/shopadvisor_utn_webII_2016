@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesShopAdvisor", "Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIShopAdvisor", "BIShopAdvisor\BIShopAdvisor.csproj", "{A4958C9D-4AAB-431E-A788-F180A8E6DACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlExtension", "HtmlExtension\HtmlExtension.csproj", "{CCCB1749-A7B0-470C-B034-F19D7D640CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCB1749-A7B0-470C-B034-F19D7D640CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCB1749-A7B0-470C-B034-F19D7D640CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCB1749-A7B0-470C-B034-F19D7D640CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCB1749-A7B0-470C-B034-F19D7D640CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
