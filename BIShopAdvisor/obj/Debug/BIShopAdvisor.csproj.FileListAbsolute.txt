@@ -1,0 +1,14 @@
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\obj\Debug\BIShopAdvisor.csprojResolveAssemblyReference.cache
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\BIShopAdvisor.dll.config
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\BIShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\BIShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\DataShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\EntityFramework.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\EntityFramework.SqlServer.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\DataShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\EntityFramework.xml
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\EntityFramework.SqlServer.xml
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\es\EntityFramework.resources.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\obj\Debug\BIShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\BIShopAdvisor\obj\Debug\BIShopAdvisor.pdb

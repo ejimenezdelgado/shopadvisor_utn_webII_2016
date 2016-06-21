@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
+﻿using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ShopAdvisor.Models;
 using System.IO;
 using DataShopAdvisor;
 using DataShopAdvisor.Modelos;
+using BIShopAdvisor;
 
 namespace ShopAdvisor.Controllers
 {
@@ -21,13 +17,13 @@ namespace ShopAdvisor.Controllers
         // GET: Places
         public async Task<ActionResult> Index()
         {
-            if(Request.IsAjaxRequest())
+            if (Request.IsAjaxRequest())
             {
-                return Json(await db.Places.ToListAsync(),
-                    JsonRequestBehavior.AllowGet);
+                 return Json(await new BIPlace().GetAll(),
+                     JsonRequestBehavior.AllowGet);
             }
             else
-                return View(await db.Places.ToListAsync());
+                return View(await new BIPlace().GetAll());
         }
 
         // GET: Places/Details/5

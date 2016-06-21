@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataShopAdvisor", "DataShop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesShopAdvisor", "EntidadesShopAdvisor\EntidadesShopAdvisor.csproj", "{CCA37E5B-3C77-4BA3-8484-F14A234C9764}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIShopAdvisor", "BIShopAdvisor\BIShopAdvisor.csproj", "{A4958C9D-4AAB-431E-A788-F180A8E6DACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CCA37E5B-3C77-4BA3-8484-F14A234C9764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA37E5B-3C77-4BA3-8484-F14A234C9764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA37E5B-3C77-4BA3-8484-F14A234C9764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4958C9D-4AAB-431E-A788-F180A8E6DACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

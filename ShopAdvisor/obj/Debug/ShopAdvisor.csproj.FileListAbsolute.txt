@@ -90,3 +90,5 @@ D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\s
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\EntidadesShopAdvisor.dll
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\DataShopAdvisor.pdb
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\EntidadesShopAdvisor.pdb
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\BIShopAdvisor.dll
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\bin\BIShopAdvisor.pdb

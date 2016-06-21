@@ -267,6 +267,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BIShopAdvisor\BIShopAdvisor.csproj">
+      <Project>{a4958c9d-4aab-431e-a788-f180a8e6dace}</Project>
+      <Name>BIShopAdvisor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataShopAdvisor\DataShopAdvisor.csproj">
       <Project>{04f52373-9ca9-48de-8798-a5a604515348}</Project>
       <Name>DataShopAdvisor</Name>

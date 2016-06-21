@@ -7,7 +7,6 @@ D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\s
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\bin\Debug\EntityFramework.SqlServer.xml
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\bin\Debug\es\EntityFramework.resources.dll
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\bin\Debug\es\EntityFramework.SqlServer.resources.dll
-D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.csprojResolveAssemblyReference.cache
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.csproj.GenerateResource.Cache
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.dll
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.pdb
@@ -15,3 +14,4 @@ D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\s
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.Migrations.createCommentTable.resources
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.Migrations.Alter1PlaceTable.resources
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.Migrations.Alter2PlaceTable.resources
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\DataShopAdvisor\obj\Debug\DataShopAdvisor.csprojResolveAssemblyReference.cache
