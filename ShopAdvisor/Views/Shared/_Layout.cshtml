@@ -9,7 +9,17 @@
     @Scripts.Render("~/bundles/modernizr")*@
     @Styles.Render("~/Content/css")
 
+    <script type="text/javascript">
 
+        var operacion = 0;
+        var suma = 0;
+        if (operacion == 0) {
+            suma = 1 + 1;
+            console.log(suma);
+            //alert(suma);
+        }
+
+    </script>
 
 </head>
 <body>
@@ -25,7 +35,7 @@
                     </a>
                 </li>
                 <li>
-                    @Html.ActionLink("Inicio", "Index", "Home")
+                    @Html.ActionLink("Inicio", "Index", "Home",new { id = "inicio" })
                 </li>
                 <li>
                     @Html.ActionLink("Lugares", "Index", "Places")
@@ -51,6 +61,31 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+    </div>
+
+    <div class="gradient">
+        <div class="wrap">
+            <div class="card">
+                <a href="http://tornadostudio.si/vila">
+                    <div class="price">60<span class="glyphicon glyphicon-eur" aria-hidden="true"></span>  / day</div>
+                    <div class="image"></div>
+                    <div class="description">
+                        <div class="row">
+                            <div class="col-sm-3"><h4>Vila Golf</h4></div>
+                            <div class="col-sm-9">
+                                <ul>
+                                    <li><span class="glyphicon glyphicon-user" aria-hidden="true"><p>3 persons</p></li>
+                                    <li><span class="glyphicon glyphicon-signal" aria-hidden="true"><p>Free WI-FI</p></li>
+                                    <li><span class="glyphicon glyphicon-cutlery" aria-hidden="true"><p>Kitchen</p></li>
+                                    <li><span class="glyphicon glyphicon-tint" aria-hidden="true"><p>Bathroom</p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
     <!-- /#wrapper -->
 
@@ -83,7 +118,11 @@
     </div>
     *@
     @Scripts.Render("~/bundles/jquery")
+    
     @Scripts.Render("~/bundles/bootstrap")
+
+    @Scripts.Render("~/bundles/sitio")
+
     @RenderSection("scripts", required: false)
 
 </body>

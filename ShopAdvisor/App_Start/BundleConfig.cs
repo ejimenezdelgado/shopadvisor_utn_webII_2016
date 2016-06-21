@@ -27,6 +27,10 @@ namespace ShopAdvisor
                       "~/Content/bootstrap.css"
                       /*"~/Content/site.css"*/,
                       "~/Content/simple-sidebar.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/sitio").Include(
+                        "~/Scripts/animacion*"));
+
         }
     }
 }

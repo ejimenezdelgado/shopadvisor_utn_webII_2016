@@ -90,3 +90,4 @@ D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\s
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.csproj.GenerateResource.Cache
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.createCommentTable.resources
 D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.Alter1PlaceTable.resources
+D:\Drive\Universidad\UTN\2016\II Cuatrimestre\PROGRAMACIÓN EN AMBIENTE WEB II\shopadvisor_utn_webII_2016\ShopAdvisor\obj\Debug\ShopAdvisor.Migrations.Alter2PlaceTable.resources

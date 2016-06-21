@@ -1,3 +1,6 @@
+
+
+
 /*!
  * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -5,7 +8,7 @@
  */
 
 /* Toggle Styles */
-
+/*
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -46,10 +49,10 @@
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -250px;
-}
+}*/
 
 /* Sidebar Styles */
-
+/*
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -123,8 +126,7 @@
         margin-right: 0;
     }
 }
-
-
+*/
 .gradient {
   height: 100vh;
   background-color: grey;

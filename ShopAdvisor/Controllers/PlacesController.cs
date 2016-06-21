@@ -19,7 +19,13 @@ namespace ShopAdvisor.Controllers
         // GET: Places
         public async Task<ActionResult> Index()
         {
-            return View(await db.Places.ToListAsync());
+            if(Request.IsAjaxRequest())
+            {
+                return Json(await db.Places.ToListAsync(),
+                    JsonRequestBehavior.AllowGet);
+            }
+            else
+                return View(await db.Places.ToListAsync());
         }
 
         // GET: Places/Details/5
@@ -51,17 +57,15 @@ namespace ShopAdvisor.Controllers
         public async Task<ActionResult> Create([Bind(Include = "id,name,latitud,longitud")]
         Place place, HttpPostedFileBase image)
         {
-
-            var filename = image.FileName;
-            var filePathOriginal = Server.MapPath("/Content/Uploads/places");
-            string savedFileName = Path.Combine(filePathOriginal, filename);
-            image.SaveAs(savedFileName);
-
-
             if (ModelState.IsValid)
             {
+                var filename = image.FileName;
+                var filePathOriginal = Server.MapPath("/content/uploads/places");
+                string savedFileName = Path.Combine(filePathOriginal, filename);
+                place.image_path = @"/content/uploads/places/" + filename;
                 db.Places.Add(place);
-                await db.SaveChangesAsync();
+                await db.SaveChangesAsync();                
+                image.SaveAs(savedFileName);
                 return RedirectToAction("Index");
             }
 
