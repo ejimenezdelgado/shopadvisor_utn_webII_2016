@@ -7,6 +7,10 @@ using System.IO;
 using DataShopAdvisor;
 using DataShopAdvisor.Modelos;
 using BIShopAdvisor;
+using EntidadesShopAdvisor;
+using System.Collections.Generic;
+using System.Linq;
+using System;
 
 namespace ShopAdvisor.Controllers
 {
@@ -33,12 +37,16 @@ namespace ShopAdvisor.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+            PlaceComments oPlaceComments = new PlaceComments();
             Place place = await db.Places.FindAsync(id);
+            IEnumerable<Comment> comments = await db.Comments.Where(x=>x.place.id==id).ToListAsync();
+            oPlaceComments.Place = place;
+            oPlaceComments.Comments = comments;
             if (place == null)
             {
                 return HttpNotFound();
             }
-            return View(place);
+            return View(oPlaceComments);
         }
 
         // GET: Places/Create
@@ -125,6 +133,37 @@ namespace ShopAdvisor.Controllers
             db.Places.Remove(place);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
+        }
+
+
+        [HttpPost, ActionName("CreateCommentPlace")]
+        public async Task<ActionResult> CreateCommentPlace(FormCollection data)
+        {
+            Comment oComment = new Comment();
+            oComment.comment = data["comment"];
+            Place oPlace = await db.Places.FindAsync(Convert.ToInt32(data["place"]));
+            oComment.place = oPlace;
+            db.Comments.Add(oComment);
+            await db.SaveChangesAsync();
+            IEnumerable<Comment> comments = await db.Comments.Where(x => x.place.id == oComment.place.id).ToListAsync();
+            PlaceComments oPlaceComments = new PlaceComments();
+            oPlaceComments.Place = oPlace;
+            oPlaceComments.Comments = comments;
+            return PartialView("PartialViewComment", oPlaceComments);
+        }
+
+        [HttpPost, ActionName("DeleteCommentPlace")]
+        public async Task<ActionResult> DeleteCommentPlace(int place, int comment)
+        {
+            Comment oComment = await db.Comments.FindAsync(comment);
+            db.Comments.Remove(oComment);
+            await db.SaveChangesAsync();
+            PlaceComments oPlaceComments = new PlaceComments();
+            Place oPlace = await db.Places.FindAsync(place);
+            IEnumerable<Comment> comments = await db.Comments.Where(x => x.place.id == place).ToListAsync();
+            oPlaceComments.Place = oPlace;
+            oPlaceComments.Comments = comments;
+            return PartialView("PartialViewComment", oPlaceComments);
         }
 
         protected override void Dispose(bool disposing)
